@@ -1,0 +1,13 @@
+{
+    "timestamp": "2025-12-06T17:42:08.784019",
+    "session_start": "2025-12-06T15:15:27.812244",
+    "session_duration_seconds": 8800.971802,
+    "total_keystrokes": 2751,
+    "current_keystroke_rate": 49,
+    "fatigue_score": 44,
+    "current_hour": 17,
+    "system_info": {
+        "cpu_percent": 0.8,
+        "memory_percent": 63.3
+    }
+}

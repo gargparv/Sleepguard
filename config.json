@@ -1,0 +1,22 @@
+{
+    "bedtime_hour": 23,
+    "critical_hour": 2,
+    "max_session_hours": 4,
+    "notification_levels": [30, 60, 90],
+    "keystroke_window_seconds": 60,
+    "save_interval_seconds": 60,
+    "break_reminder_minutes": 25,
+    "force_break_enabled": false,
+    "whitelisted_apps": [],
+    "description": {
+        "bedtime_hour": "Hour after which fatigue scoring increases (24-hour format)",
+        "critical_hour": "Hour when system enters critical mode (24-hour format)",
+        "max_session_hours": "Maximum recommended continuous work hours",
+        "notification_levels": "Fatigue score thresholds for notifications (0-100)",
+        "keystroke_window_seconds": "Time window for keystroke rate calculation",
+        "save_interval_seconds": "How often to save statistics to file",
+        "break_reminder_minutes": "Interval for break reminders (Pomodoro-style)",
+        "force_break_enabled": "Whether to force breaks at high fatigue levels",
+        "whitelisted_apps": "Apps that won't be blocked during force breaks"
+    }
+}
