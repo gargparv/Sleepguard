@@ -145,15 +145,15 @@ class SleepGuardDaemon:
         """Send desktop notification based on fatigue level"""
         try:
             if fatigue_level >= 90:
-                title = "🚨 SleepGuard: CRITICAL ALERT!"
+                title = " SleepGuard: CRITICAL ALERT!"
                 message = "You've been working way too long! Please rest NOW."
                 timeout = 10
             elif fatigue_level >= 60:
-                title = "⚠️ SleepGuard: High Fatigue Detected"
+                title = " SleepGuard: High Fatigue Detected"
                 message = "Consider taking a break soon. Your productivity is declining."
                 timeout = 8
             elif fatigue_level >= 30:
-                title = "💡 SleepGuard: Fatigue Warning"
+                title = " SleepGuard: Fatigue Warning"
                 message = f"You've been working for {self.get_session_duration()}. Time for a break?"
                 timeout = 5
             else:
