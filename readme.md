@@ -329,7 +329,7 @@ MIT License - Feel free to use and modify for educational purposes.
 
 ## 👨‍💻 Author
 
-Built as an OS course project demonstrating practical system-level programming.
+Parv Garg
 
 ## 🙏 Acknowledgments
 
