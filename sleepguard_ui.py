@@ -171,7 +171,7 @@ class SleepGuardUI:
         
         # Health recommendations
         print(f"{Fore.CYAN}{'─'*60}")
-        print(f"{Fore.WHITE}💡 Health Recommendations:")
+        print(f"{Fore.WHITE} Health Recommendations:")
         print(f"{Fore.CYAN}{'─'*60}")
         
         if fatigue_score >= 90:
@@ -191,7 +191,7 @@ class SleepGuardUI:
         
         # Time-based warnings
         if current_hour >= 23 or current_hour < 6:
-            print(f"\n{Fore.RED}  ⚠️  It's late! Consider getting rest soon")
+            print(f"\n{Fore.RED}  It's late! Consider getting rest soon")
         
         print(f"\n{Fore.CYAN}{'='*60}")
         print(f"{Fore.WHITE}Press Ctrl+C to exit")
