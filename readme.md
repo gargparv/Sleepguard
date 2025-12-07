@@ -1,7 +1,5 @@
 # SleepGuard - Intelligent Late-Night Productivity Protector
 
-![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 An OS-level daemon that monitors your work patterns and intervenes when you're working unhealthy late hours. Protects developers and students from burnout by detecting fatigue and enforcing healthy work boundaries.
 
